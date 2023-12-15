@@ -1,0 +1,36 @@
+body {
+  font-family: Arial; /*alterar fonte do site todo*/
+}
+
+h1 {
+  text-align: center; /*pra alinhar o texto do título do site*/
+  background: #a8f;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-top: 0px; /*pra tirar o espaço do topo dos quadrados*/
+  color: orange;
+}
+
+.item {
+  background: beige;
+  border: 1px solid #e7e7e7; /*borda do quadrado*/
+  padding: 20px; /*pra separar a distância dos textos*/
+  border-radius: 10px; /*pra arredondar as bordas*/
+}
+
+.comprar {
+  background: #a8f; /*pra separar os elementos*/
+  color: #103; /*cor da letra*/
+  padding: 10px 20px; /*pra separar os elementos*/
+  text-decoration: none; /*tirar a borda de link*/
+  border-radius: 10px;
+}
+
+.grid {
+  display: grid; /*pra "compactar" os elementos*/
+  grid-template-columns: 300px 300px; /*tirar editar os locais dos elementos*/
+  gap: 20px;
+  justify-content: center; /*pra justificar o conteúdo*/
+}
