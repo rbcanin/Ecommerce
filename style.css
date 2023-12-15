@@ -34,3 +34,13 @@ h2 {
   gap: 20px;
   justify-content: center; /*pra justificar o conteúdo*/
 }
+
+.foto {
+  width: 90px;
+  height: 90px;
+}
+
+.direita {
+  display: flex;
+  justify-content: flex-end;
+}
